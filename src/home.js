@@ -18,7 +18,7 @@
 
     //create brand line of home header
     const p = document.createElement("p");
-    p.innerText = 'The Most loved food heaven in L.A';
+    p.innerText = 'The Most loved food heaven in L.A.';
     p.classList.add('brandLine');
 
     //append p to homeHeader
