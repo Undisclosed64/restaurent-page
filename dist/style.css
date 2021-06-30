@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400;1,500;1,600&family=Petit+Formal+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1561350111-7daa4f284bc6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.header {
+  background: #000000e6;
+  padding: 20px;
+}
+.header .brand {
+  text-align: center;
+  font-size: 5rem;
+  font-family: "Tangerine", cursive;
+  color: #d00000;
+}
+.header .ul {
+  color: mintcream;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+.header .nav {
+  padding: 0.8rem;
+  padding-top: 2rem;
+  font-size: 1.2rem;
+  list-style: none;
+  border-bottom: 2px solid transparent;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.header .nav.active {
+  border-bottom: 2px solid #eee;
+}
+.header .nav:hover {
+  transform: translateY(-10%);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionHome,
+.sectionMenu,
+.sectionContact {
+  text-align: center;
+  padding: 2rem;
+  margin: 4rem 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid #222;
+}
+.homeHeader {
+  font-size: 4rem;
+  font-family: "Tangerine", cursive;
+  color: #d00000;
+  margin-bottom: 30px;
+}
+.homeHeader:hover {
+  cursor: pointer;
+}
+.brandLine {
+  font-size: 2.5rem;
+  color: blanchedalmond;
+}
+.homeDetails {
+  color: mistyrose;
+  font-family: "Montserrat", sans-serif;
+  width: 100%; /*for smaller sizes*/
+  margin: 0 auto;
+  line-height: 28px;
+  font-size: 1.2rem;
+}
+.menuHeading:hover {
+  color: #eee;
+  transition: color 0.4s;
+  cursor: pointer;
+}
+.menuItems {
+  margin: 0 auto;
+  opacity: 0.9;
+  background-attachment: scroll;
+}
+.item:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: background-color 0.3s;
+}
+.itemType_div {
+  font-size: 1.6rem;
+  color: navajowhite;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  padding: 1em;
+  margin-top: 1.5em;
+  padding-left: 1px;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid navajowhite;
+}
+.itemType_div:hover {
+  color: #06d6a0;
+  border-bottom: 1px solid #06d6a0;
+  transition: color 0.3s;
+  transition: border 0.3s;
+  cursor: pointer;
+}
+.menuItems {
+  font-family: "Montserrat", sans-serif;
+}
+.img {
+  width: 300px;
+  padding: 1rem;
+  padding-top: 2rem;
+}
+.name,
+.price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #06d6a0;
+  padding: 1em;
+  padding-top: 0;
+  padding-bottom: 0.5em;
+}
+.name,
+.price:hover {
+  cursor: pointer;
+}
+.item {
+  margin-top: 2em;
+  border: 2px solid #222;
+}
+.sectionContact {
+  padding: 0.5em;
+  border-radius: 20px;
+}
+.contactHeader {
+  font-size: 3rem;
+  border-bottom: 1px solid #aaa;
+}
+.contactHeader:hover {
+  color: #eee;
+  border-bottom: 1px solid #eee;
+  transition: color 0.3s;
+  transition: border 0.3s;
+  cursor: pointer;
+}
+.contactDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contactElements {
+  color: navajowhite;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+.contactElements:hover {
+  color: #d00000;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+.icon {
+  color: mediumvioletred;
+  float: left;
+  padding-right: 1em;
+}
+.icon:hover {
+  color: #d00000;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+.footer {
+  background: #000000e6;
+  padding: 20px;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.footerContent {
+  font-size: 1.3rem;
+}
+@media only screen and (min-width: 400px) {
+  .header .nav {
+    padding: 1.3rem;
+  }
+  .sectionHome {
+    padding: 2.5rem;
+    max-width: 700px;
+    margin: 6rem 2rem;
+  }
+  .homeHeader {
+    letter-spacing: 2px;
+  }
+  .homeDetails {
+    line-height: 35px;
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (min-width: 568px) {
+  .header .brand {
+    font-size: 6rem;
+  }
+  .header .nav {
+    padding: 1.4rem;
+    font-size: 1.4rem;
+  }
+  .homeHeader {
+    font-size: 5rem;
+  }
+  .brandLine {
+    font-size: 3rem;
+  }
+  .sectionHome {
+    padding: 2.5rem;
+    max-width: 700px;
+    margin: 6rem 3rem;
+  }
+  .homeDetails {
+    line-height: 35px;
+    width: 90%;
+    font-size: 1.3rem;
+  }
+  .sectionMenu {
+    margin: 6rem;
+    padding: 2rem;
+    width: 500px;
+  }
+  .img {
+    width: 350px;
+  }
+  .name,
+  .price {
+    font-size: 1.4rem;
+  }
+  .sectionContact {
+    padding: 4rem;
+  }
+  .contactHeader {
+    font-size: 5rem;
+    margin-bottom: 0.8em;
+  }
+  .contactElements {
+    font-size: 2rem;
+    margin: 1.5rem;
+  }
+  .icon {
+    padding-right: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .header .brand {
+    font-size: 8rem;
+  }
+  .header .nav {
+    padding: 1.8rem;
+  }
+  .sectionHome {
+    padding: 2rem;
+    max-width: 700px;
+    margin: 6rem 0;
+  }
+  .brandLine {
+    font-size: 3rem;
+  }
+  .homeDetails {
+    max-width: 70%;
+  }
+  .sectionMenu {
+    margin: 4rem 0;
+  }
+  .img {
+    width: 400px;
+  }
+  .itemType_div {
+    font-size: 2rem;
+  }
+}
