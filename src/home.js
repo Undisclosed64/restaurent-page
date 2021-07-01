@@ -28,7 +28,7 @@
 
     //create paragraph element for details
     const homeDetails = document.createElement("p");
-    homeDetails.innerText = "We have been awarded with the People's Choice Award in both 2020 and 2021.We pledge to treat you with the most deliciously exotic food you'll ever have.Every working hour and every working minute,we breaath in this pledge.Right from that gorgeous looking pasta at top, to the last item of our menu,everything is made with the utmost care and love.We believe that great quality and awesome deliciousness can go hand in hand and our team is just dedicated that.Visit us to feel how great food tastes like.";
+    homeDetails.innerText = "We have been awarded with the People's Choice Award in both 2020 and 2021.We pledge to treat you with the most delicious food you'll ever have.Every working hour and every working minute,we breath in this pledge.Right from that gorgeous looking pasta at top, to the last item of our menu,everything is made with the utmost care and love.We believe that great quality and awesome deliciousness can go hand in hand and our team is just dedicated to that.Visit us to feel how great food tastes like.";
     homeDetails.classList.add("homeDetails");
 
     //append homedetails to section
