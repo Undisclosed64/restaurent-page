@@ -77,6 +77,8 @@ body {
   margin: 0 auto;
   line-height: 28px;
   font-size: 1.2rem;
+   text-align: justify;
+
 }
 .menuHeading:hover {
   color: #eee;
