@@ -77,6 +77,8 @@ body {
   margin: 0 auto;
   line-height: 28px;
   font-size: 1.2rem;
+  text-align: justify;
+  letter-spacing: 0;
 }
 .menuHeading:hover {
   color: #eee;
@@ -202,7 +204,6 @@ body {
     letter-spacing: 2px;
   }
   .homeDetails {
-    line-height: 35px;
     font-size: 1.4rem;
   }
 }
@@ -226,9 +227,9 @@ body {
     margin: 6rem 3rem;
   }
   .homeDetails {
-    line-height: 35px;
     width: 90%;
     font-size: 1.3rem;
+    line-height: 35px;
   }
   .sectionMenu {
     margin: 6rem;
